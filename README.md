@@ -1,16 +1,10 @@
-# abbado_musicbox
+# musicbox
 
-A new Flutter project.
+Flutter project with dependency on Audioplayers.
 
-## Getting Started
+## A testbed for Audioplayers
 
-This project is a starting point for a Flutter application.
+This project is a meant for testing memory consumption and responsiveness of Audioplayers 
+when playing many small sound-files sequentially and in parallel.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+If you know how to improve the code, ... Please do.
