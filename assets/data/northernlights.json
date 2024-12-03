@@ -1,0 +1,1049 @@
+[
+   {
+         "notes": [
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "E", "octave": "5", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 0 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 30 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 60, "delay": 60 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 120 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 150 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 180 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 210 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "E", "octave": "5", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "F", "octave": "5", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "F", "octave": "5", "alter": 0, "duration": 180, "delay": 60 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 180, "delay": 60 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 180, "delay": 60 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 0 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 30 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 60, "delay": 60 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 120 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 150 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 180 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 210 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "C", "octave": "5", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 120, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "D", "octave": "5", "alter": 0, "duration": 240, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 240, "delay": 0 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 240, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "D", "octave": "5", "alter": 0, "duration": 240, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 60, "delay": 120 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 60, "delay": 180 },
+           { "step": "B", "octave": "2", "alter": -1, "duration": 120, "delay": 0 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 60, "delay": 180 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "D", "octave": "5", "alter": 0, "duration": 90, "delay": 0 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 90 },
+           { "step": "E", "octave": "5", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "F", "octave": "5", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "C", "octave": "5", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "D", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "D", "octave": "3", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "C", "octave": "3", "alter": 0, "duration": 60, "delay": 180 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "F", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 120, "delay": 120 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 60 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 90 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 60, "delay": 120 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 60, "delay": 180 },
+           { "step": "B", "octave": "2", "alter": -1, "duration": 120, "delay": 0 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 60, "delay": 180 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "E", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "C", "octave": "5", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "C", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 120, "delay": 60 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "A", "octave": "2", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "D", "octave": "3", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "C", "octave": "3", "alter": 0, "duration": 60, "delay": 180 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "E", "octave": "5", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 120 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 150 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 180 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 210 },
+           { "step": "B", "octave": "2", "alter": -1, "duration": 30, "delay": 0 },
+           { "step": "B", "octave": "2", "alter": -1, "duration": 30, "delay": 30 },
+           { "step": "B", "octave": "2", "alter": -1, "duration": 60, "delay": 60 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 30, "delay": 210 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "E", "octave": "5", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "F", "octave": "5", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "F", "octave": "5", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "F", "octave": "5", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "F", "octave": "5", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "E", "octave": "5", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "E", "octave": "5", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "C", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "C", "octave": "4", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "D", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "D", "octave": "3", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 60, "delay": 180 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 60 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 90 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 60 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 90 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "B", "octave": "4", "alter": -1, "duration": 30, "delay": 180 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "C", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "C", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 0 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 30 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 60, "delay": 60 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 30, "delay": 210 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "C", "octave": "5", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 180, "delay": 60 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 120, "delay": 60 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 120, "delay": 120 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 120, "delay": 120 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "F", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 120, "delay": 120 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 60 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 90 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 120, "delay": 120 },
+           { "step": "B", "octave": "2", "alter": -1, "duration": 120, "delay": 0 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 120, "delay": 120 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "E", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "C", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 180, "delay": 60 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 240, "delay": 0 },
+           { "step": "A", "octave": "2", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "D", "octave": "3", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "C", "octave": "3", "alter": 0, "duration": 60, "delay": 180 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "F", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 60 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 90 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 60, "delay": 120 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 60, "delay": 180 },
+           { "step": "B", "octave": "2", "alter": -1, "duration": 120, "delay": 0 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 60, "delay": 180 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "E", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "C", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "A", "octave": "2", "alter": 0, "duration": 120, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "F", "octave": "4", "alter": 0, "duration": 240, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 240, "delay": 0 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 240, "delay": 0 },
+           { "step": "B", "octave": "2", "alter": -1, "duration": 240, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "A", "octave": "4", "alter": 0, "duration": 30, "delay": 150 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "A", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 120, "delay": 60 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "A", "octave": "4", "alter": 0, "duration": 180, "delay": 0 },
+           { "step": "C", "octave": "4", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "E", "octave": "3", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "B", "octave": "3", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "A", "octave": "2", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "C", "octave": "3", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "E", "octave": "3", "alter": 0, "duration": 60, "delay": 120 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "A", "octave": "4", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "F", "octave": "4", "alter": 1, "duration": 120, "delay": 0 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "D", "octave": "3", "alter": 0, "duration": 120, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "G", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 120, "delay": 60 },
+           { "step": "C", "octave": "4", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "E", "octave": "3", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "A", "octave": "2", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "B", "octave": "2", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "C", "octave": "3", "alter": 0, "duration": 60, "delay": 120 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "A", "octave": "4", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 30, "delay": 60 },
+           { "step": "B", "octave": "4", "alter": 0, "duration": 30, "delay": 90 },
+           { "step": "C", "octave": "5", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "B", "octave": "4", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "F", "octave": "4", "alter": 1, "duration": 120, "delay": 0 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "D", "octave": "3", "alter": 0, "duration": 120, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "B", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "B", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 120, "delay": 60 },
+           { "step": "C", "octave": "4", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "E", "octave": "3", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "B", "octave": "3", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "A", "octave": "2", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "C", "octave": "3", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "E", "octave": "3", "alter": 0, "duration": 60, "delay": 120 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "A", "octave": "4", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 90, "delay": 60 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "F", "octave": "4", "alter": 1, "duration": 120, "delay": 0 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "D", "octave": "3", "alter": 0, "duration": 120, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "A", "octave": "4", "alter": 0, "duration": 90, "delay": 0 },
+           { "step": "B", "octave": "4", "alter": -1, "duration": 30, "delay": 90 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "E", "octave": "4", "alter": -1, "duration": 180, "delay": 0 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 180, "delay": 0 },
+           { "step": "B", "octave": "2", "alter": -1, "duration": 180, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "G", "octave": "4", "alter": 0, "duration": 240, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 240, "delay": 0 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 240, "delay": 0 },
+           { "step": "B", "octave": "2", "alter": -1, "duration": 240, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "G", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "F", "octave": "4", "alter": 1, "duration": 60, "delay": 120 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 180 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "G", "octave": "4", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "B", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "B", "octave": "3", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "F", "octave": "4", "alter": 1, "duration": 60, "delay": 120 },
+           { "step": "E", "octave": "3", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "B", "octave": "3", "alter": 0, "duration": 60, "delay": 120 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "C", "octave": "5", "alter": 1, "duration": 120, "delay": 0 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 120, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "G", "octave": "4", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "B", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 30, "delay": 60 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 30, "delay": 90 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "B", "octave": "3", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "E", "octave": "3", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "F", "octave": "3", "alter": 1, "duration": 60, "delay": 60 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 60, "delay": 120 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "C", "octave": "5", "alter": 1, "duration": 120, "delay": 0 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 30, "delay": 60 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 30, "delay": 90 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 20, "delay": 120 },
+           { "step": "F", "octave": "4", "alter": 1, "duration": 20, "delay": 140 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 20, "delay": 160 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 120, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "G", "octave": "4", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "B", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 180, "delay": 0 },
+           { "step": "B", "octave": "3", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "F", "octave": "4", "alter": 1, "duration": 60, "delay": 120 },
+           { "step": "E", "octave": "3", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "B", "octave": "3", "alter": 0, "duration": 60, "delay": 120 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "C", "octave": "5", "alter": 1, "duration": 120, "delay": 0 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "F", "octave": "4", "alter": 1, "duration": 30, "delay": 150 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 120, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "A", "octave": "4", "alter": 0, "duration": 180, "delay": 0 },
+           { "step": "F", "octave": "4", "alter": 1, "duration": 90, "delay": 0 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 30, "delay": 90 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "C", "octave": "4", "alter": 0, "duration": 180, "delay": 0 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 180, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "B", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "B", "octave": "4", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "E", "octave": "5", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "B", "octave": "3", "alter": 0, "duration": 180, "delay": 0 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 180, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "E", "octave": "5", "alter": 0, "duration": 180, "delay": 0 },
+           { "step": "F", "octave": "4", "alter": 1, "duration": 90, "delay": 0 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 30, "delay": 90 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "C", "octave": "4", "alter": 0, "duration": 180, "delay": 0 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 180, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "E", "octave": "5", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "B", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "E", "octave": "5", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "B", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "B", "octave": "3", "alter": 0, "duration": 180, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 180, "delay": 0 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 60, "delay": 120 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "F", "octave": "5", "alter": 1, "duration": 90, "delay": 0 },
+           { "step": "G", "octave": "5", "alter": 0, "duration": 30, "delay": 90 },
+           { "step": "E", "octave": "5", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "B", "octave": "4", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "C", "octave": "5", "alter": 0, "duration": 120, "delay": 60 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 180, "delay": 0 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 180, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "E", "octave": "5", "alter": 0, "duration": 180, "delay": 0 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 90, "delay": 0 },
+           { "step": "B", "octave": "4", "alter": 0, "duration": 30, "delay": 90 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "B", "octave": "3", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 180, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "E", "octave": "5", "alter": 0, "duration": 180, "delay": 0 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 180, "delay": 0 },
+           { "step": "F", "octave": "4", "alter": 1, "duration": 90, "delay": 0 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 30, "delay": 90 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 180, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "E", "octave": "5", "alter": 0, "duration": 180, "delay": 0 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 180, "delay": 0 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "F", "octave": "4", "alter": 1, "duration": 60, "delay": 120 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 180, "delay": 0 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 180, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "E", "octave": "5", "alter": 0, "duration": 180, "delay": 0 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 180, "delay": 0 },
+           { "step": "F", "octave": "4", "alter": 1, "duration": 180, "delay": 0 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 180, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 180, "delay": 0 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 180, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "G", "octave": "4", "alter": 0, "duration": 90, "delay": 0 },
+           { "step": "F", "octave": "4", "alter": 1, "duration": 90, "delay": 0 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 90, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 90, "delay": 0 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 90, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "E", "octave": "5", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 0 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 30 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 60, "delay": 60 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 120 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 150 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 180 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 210 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "E", "octave": "5", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "F", "octave": "5", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "F", "octave": "5", "alter": 0, "duration": 180, "delay": 60 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 180, "delay": 60 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 210 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 0 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 30 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 60, "delay": 60 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 120 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 150 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 180 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 210 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "C", "octave": "5", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 180, "delay": 60 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 120, "delay": 120 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 120, "delay": 120 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "F", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 120 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 150 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 180 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 30, "delay": 210 },
+           { "step": "B", "octave": "2", "alter": -1, "duration": 30, "delay": 0 },
+           { "step": "B", "octave": "2", "alter": -1, "duration": 30, "delay": 30 },
+           { "step": "B", "octave": "2", "alter": -1, "duration": 60, "delay": 60 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 30, "delay": 210 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "G", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "D", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "D", "octave": "3", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "D", "octave": "3", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "C", "octave": "3", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "C", "octave": "3", "alter": 0, "duration": 30, "delay": 210 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "A", "octave": "4", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "B", "octave": "4", "alter": -1, "duration": 120, "delay": 60 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 60 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 90 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 30, "delay": 60 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 30, "delay": 90 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "B", "octave": "2", "alter": -1, "duration": 30, "delay": 0 },
+           { "step": "B", "octave": "2", "alter": -1, "duration": 30, "delay": 30 },
+           { "step": "B", "octave": "2", "alter": -1, "duration": 30, "delay": 60 },
+           { "step": "B", "octave": "2", "alter": -1, "duration": 30, "delay": 90 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 30, "delay": 210 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "G", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "C", "octave": "5", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "C", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 120, "delay": 60 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "E", "octave": "3", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "E", "octave": "3", "alter": 0, "duration": 30, "delay": 60 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 30, "delay": 90 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 120, "delay": 120 },
+           { "step": "A", "octave": "2", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "A", "octave": "2", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "D", "octave": "3", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "C", "octave": "3", "alter": 0, "duration": 60, "delay": 180 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "E", "octave": "5", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 120, "delay": 120 },
+           { "step": "B", "octave": "2", "alter": -1, "duration": 120, "delay": 0 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 60, "delay": 180 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "E", "octave": "5", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "F", "octave": "5", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "F", "octave": "5", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "F", "octave": "5", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "F", "octave": "5", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "E", "octave": "5", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "E", "octave": "5", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "B", "octave": "4", "alter": -1, "duration": 120, "delay": 0 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "C", "octave": "4", "alter": 0, "duration": 180, "delay": 0 },
+           { "step": "C", "octave": "4", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "D", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "D", "octave": "3", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "A", "octave": "2", "alter": 0, "duration": 60, "delay": 180 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 60 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 90 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "C", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 60, "delay": 120 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 60, "delay": 180 },
+           { "step": "B", "octave": "2", "alter": -1, "duration": 120, "delay": 0 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 60, "delay": 180 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "C", "octave": "5", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "5", "alter": 0, "duration": 180, "delay": 60 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 120, "delay": 120 },
+           { "step": "A", "octave": "2", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "C", "octave": "3", "alter": 0, "duration": 60, "delay": 180 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "F", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 120, "delay": 120 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 60 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 90 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 120, "delay": 120 },
+           { "step": "B", "octave": "2", "alter": -1, "duration": 120, "delay": 0 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 120, "delay": 120 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "E", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "C", "octave": "4", "alter": 1, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 180, "delay": 60 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 120, "delay": 120 },
+           { "step": "A", "octave": "2", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "D", "octave": "3", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "C", "octave": "3", "alter": 0, "duration": 60, "delay": 180 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "F", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 120, "delay": 120 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 60 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 90 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 120 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 150 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 60, "delay": 60 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 60, "delay": 120 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "B", "octave": "2", "alter": -1, "duration": 120, "delay": 0 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 120, "delay": 120 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "E", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "F", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "C", "octave": "4", "alter": 1, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 180, "delay": 60 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "A", "octave": "2", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "D", "octave": "3", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "C", "octave": "3", "alter": 0, "duration": 60, "delay": 180 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "F", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "G", "octave": "4", "alter": 0, "duration": 120, "delay": 120 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 60 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 90 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 180 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 210 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 120, "delay": 0 },
+           { "step": "B", "octave": "3", "alter": -1, "duration": 60, "delay": 120 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "B", "octave": "2", "alter": -1, "duration": 120, "delay": 0 },
+           { "step": "G", "octave": "2", "alter": 0, "duration": 120, "delay": 120 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "E", "octave": "4", "alter": 0, "duration": 240, "delay": 0 },
+           { "step": "C", "octave": "4", "alter": 1, "duration": 30, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 30, "delay": 30 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 180, "delay": 60 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 240, "delay": 0 },
+           { "step": "A", "octave": "2", "alter": 0, "duration": 240, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "D", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 180, "delay": 120 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "F", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "C", "octave": "5", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 240, "delay": 0 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "C", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "D", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 60, "delay": 180 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "B", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 360, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 120, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "F", "octave": "4", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "A", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "C", "octave": "5", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 240, "delay": 0 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "C", "octave": "4", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "E", "octave": "4", "alter": 0, "duration": 60, "delay": 180 },
+           { "step": "D", "octave": "3", "alter": 0, "duration": 120, "delay": 0 },
+           { "step": "F", "octave": "3", "alter": 0, "duration": 60, "delay": 120 },
+           { "step": "A", "octave": "3", "alter": 0, "duration": 60, "delay": 180 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "B", "octave": "4", "alter": 0, "duration": 240, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 240, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 240, "delay": 0 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 240, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "B", "octave": "4", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 240, "delay": 0 },
+           { "step": "D", "octave": "4", "alter": 0, "duration": 60, "delay": 0 },
+           { "step": "G", "octave": "3", "alter": 0, "duration": 60, "delay": 0 }
+         ]
+       },
+       {
+         "notes": [
+           { "step": "D", "octave": "4", "alter": 0, "duration": 240, "delay": 0 }
+         ]
+       }        
+]
+  
