@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'src/components/soundplayer.dart';
+//import 'src/components/soundplayer2.dart';
 import 'src/components/file_handling.dart';
 import 'src/components/music_model.dart';
 import 'package:flutter/services.dart';
@@ -59,7 +60,9 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final SoundPlayer soundPlayer = SoundPlayer(systemInfo);
+  //final SoundPlayer2 soundPlayer2 = SoundPlayer2(systemInfo);
   int _counter = 0;
+  int _counter2 = 0;
   double _memoryConsumption = 0;
   double _cpuConsumption = 0;
   Timer? _resourceMonitor;
@@ -133,13 +136,8 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             const SizedBox(height: 20),
             // Display Text
-            const Text(
-              'Measure nbr:',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
+            Text('Measure nbr:  $_counter',style: Theme.of(context).textTheme.headlineMedium),
+            Text('Sound   nbr:  $_counter2',style: Theme.of(context).textTheme.headlineMedium),
             const SizedBox(height: 20),
             Text(
               'Memory Consumption: ${_memoryConsumption.toStringAsFixed(2)} MB',
@@ -147,6 +145,14 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             const SizedBox(height: 20),
             // Add Buttons
+            ElevatedButton(
+              onPressed: () => _loadMeasuresAndUpdate('testsinglesounds',8,300),
+              child: const Text('Single sounds'),
+            ),
+            ElevatedButton(
+              onPressed: () => _loadMeasuresAndUpdate('testmeasures',8,300),
+              child: const Text('Test Chords'),
+            ),
             ElevatedButton(
               onPressed: () => _loadMeasuresAndUpdate('irishblessingsoprano',8,300),
               child: const Text('Irish Blessing S'),
@@ -177,48 +183,10 @@ class _MyHomePageState extends State<MyHomePage> {
     _startPlaying();
   }
 
-  //@override
-  Widget xbuild(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text(widget.title),
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text(
-              'Measure nbr:',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
-            Text(
-              'Memory Consumption: ${_memoryConsumption.toStringAsFixed(2)} MB',
-              style: Theme.of(context).textTheme.bodyLarge,
-            ),
-            Text(
-              'CPU Consumption: ${_cpuConsumption.toStringAsFixed(2)}%',
-              style: Theme.of(context).textTheme.bodyLarge,
-            ),
-          ],
-        ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _startPlaying,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
-    );
-  }
-
   void playMeasureIntervals(int index, int indexTo) {   // rekursiv og Timer - alternativ til forEachMeasureInterval
     if (index<=indexTo) {
-      int millisecondsDuration = measureMillisec;
       _playMeasure(index);
-      Timer(Duration(milliseconds: millisecondsDuration),(){playMeasureIntervals(index+1, indexTo);});
+      Timer(Duration(milliseconds: measureMillisec),(){playMeasureIntervals(index+1, indexTo);});
     }
   }
 
@@ -228,6 +196,7 @@ class _MyHomePageState extends State<MyHomePage> {
     soundPlayer.playChords();
     setState(() {
       _counter= index;
+      _counter2= soundPlayer.nbrSoundsPlayed;
     });
   }
 }

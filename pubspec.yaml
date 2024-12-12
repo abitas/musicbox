@@ -13,6 +13,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   audioplayers: ^6.1.0
   vm_service: ^14.2.5
+   # flutter_soloud: ^2.1.7
 
 dev_dependencies:
   flutter_test:

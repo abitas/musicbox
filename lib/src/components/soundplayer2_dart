@@ -5,32 +5,20 @@
 import 'dart:async';
 import '../components/file_handling.dart';
 import 'package:flutter/material.dart';
-import 'package:audioplayers/audioplayers.dart';  
+import 'package:flutter_soloud/flutter_soloud.dart';
 import 'package:flutter/services.dart';
 import '../components/music_model.dart';
+import '../components/soundplayer.dart';
 
-class Sound {
-  String instrument; 
-  String soundFileIdentity; 
-  late String soundFilePath; 
-  double volume;
-  int millisecondsDuration;
-  late int indexPlayer;
-
-  Sound(this.instrument,this.soundFileIdentity,this.volume,this.millisecondsDuration) {
-    soundFilePath='$instrument/$soundFileIdentity';
-  }
-}
-
-class SoundPlayer {
+class SoundPlayer2 {
   late SystemInfo system;
-  List<AudioPlayer> player = [];
+  AudioSource? currentSound;
+  //List<AudioPlayer> player = [];
   List<bool> isPlaying = [false,false,false,false,false,false,false,false,false,false,false,false];
   Map<int,List<Sound>> chords = {};
   final Map<String, Uint8List> _soundCache = {};
-  int nbrSoundsPlayed=0;
 
-  SoundPlayer(SystemInfo systemInfo) {
+  SoundPlayer2(SystemInfo systemInfo) {
     system = systemInfo;
     initAudioPlayer();
     preloadSounds();
@@ -38,25 +26,11 @@ class SoundPlayer {
   }
 
   Future<void> initAudioPlayer() async {
-    final AudioContext audioContext = AudioContext(
-      iOS: AudioContextIOS(         
-        category: AVAudioSessionCategory.playAndRecord,         
-        options: {
-          AVAudioSessionOptions.defaultToSpeaker,
-          AVAudioSessionOptions.mixWithOthers,
-        }
-      ),       
-      android: AudioContextAndroid(         
-        isSpeakerphoneOn: true,         
-        stayAwake: true,         
-        contentType: AndroidContentType.music,         
-        usageType: AndroidUsageType.virtualSource,         
-        audioFocus: AndroidAudioFocus.gain,       
-      ),
-    );
-    await AudioPlayer.global.setAudioContext(audioContext);
-    player = [AudioPlayer(),AudioPlayer(),AudioPlayer(),AudioPlayer(),AudioPlayer(),AudioPlayer(),AudioPlayer(),AudioPlayer(),AudioPlayer(),AudioPlayer(),AudioPlayer(),AudioPlayer()];
-    if (system.platform!="android") {for (AudioPlayer playerx in player) {playerx.setPlayerMode(PlayerMode.lowLatency);}}
+  WidgetsFlutterBinding.ensureInitialized();
+  await SoLoud.instance.init();
+  }
+  void dispose() {
+    SoLoud.instance.deinit();
   }
 
   Future<void> preloadSounds() async {
@@ -126,13 +100,11 @@ class SoundPlayer {
 
   Future<void> playTestTunes() async {
     try {
-       Uint8List soundBytes = await _loadSound("piano/A2");
-      for (AudioPlayer p in player) {
-        await p.play(BytesSource(soundBytes,mimeType: "audio/wav"),volume:0.5);
-        Timer(Duration(milliseconds: 10), (){p.stop();});
-      }
+        await SoLoud.instance.disposeAllSources();
+        currentSound = await SoLoud.instance.loadAsset('assets/sound/A4.wav');
+        await SoLoud.instance.play(currentSound!);
     } catch (error) {
-      debugPrint('playTestTunes - AudioPlayer - $error');
+      debugPrint('playTestTunes - SoLoud - $error');
     }
   }
 
@@ -227,7 +199,6 @@ Future<Uint8List> _loadSound(String path) async {
     try {
       player[sound.indexPlayer].play(BytesSource(_getSound(sound.soundFilePath),mimeType: "audio/wav"), volume:sound.volume);
       Timer(Duration(milliseconds: sound.millisecondsDuration), (){player[sound.indexPlayer].stop(); stoppedPlayer(sound.indexPlayer);});
-      nbrSoundsPlayed+=1;
     } catch (error) {
       debugPrint('playSound - AudioPlayer ${sound.indexPlayer} - ${sound.soundFilePath} - $error');
     }
@@ -237,4 +208,3 @@ Future<Uint8List> _loadSound(String path) async {
   }
 
 }
-
