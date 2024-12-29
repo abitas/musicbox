@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
-import 'src/components/soundplayer.dart';
-//import 'src/components/soundplayer2.dart';
+//import 'src/components/soundplayer.dart';
+import 'src/components/soundplayer2.dart';
 import 'src/components/file_handling.dart';
 import 'src/components/music_model.dart';
 import 'package:flutter/services.dart';
 import 'dart:convert';
 import 'dart:async';
 import 'package:vm_service/vm_service_io.dart';
+import 'package:flutter_soloud/flutter_soloud.dart';
 //import 'dart:developer' as developer;
 
 void main() async {
@@ -64,7 +65,6 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
   int _counter2 = 0;
   double _memoryConsumption = 0;
-  double _cpuConsumption = 0;
   Timer? _resourceMonitor;
 
   @override
@@ -89,7 +89,6 @@ class _MyHomePageState extends State<MyHomePage> {
       final stats = await _fetchResourceStats();
       setState(() {
         _memoryConsumption = stats['memory'] ?? 0;
-        _cpuConsumption = stats['cpu'] ?? 0;
       });
     });
   }

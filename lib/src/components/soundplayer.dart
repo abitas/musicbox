@@ -213,7 +213,7 @@ Future<Uint8List> _loadSound(String path) async {
       for (Sound sound in chord) {
         sound.indexPlayer =_findFreePlayer();
         isPlaying[sound.indexPlayer]=true;
-        //preloadSound(sound.soundFilePath); // xxx prøver uten denne 
+        preloadSound(sound.soundFilePath);  
       }
   }
   void playChord(List<Sound> chord) { 
@@ -226,6 +226,7 @@ Future<Uint8List> _loadSound(String path) async {
   void playSound(Sound sound) { // Future<void> async
     try {
       player[sound.indexPlayer].play(BytesSource(_getSound(sound.soundFilePath),mimeType: "audio/wav"), volume:sound.volume);
+      //player[sound.indexPlayer].play(AssetSource('sound/${sound.soundFilePath}.wav',mimeType: "audio/wav"), volume:sound.volume);
       Timer(Duration(milliseconds: sound.millisecondsDuration), (){player[sound.indexPlayer].stop(); stoppedPlayer(sound.indexPlayer);});
       nbrSoundsPlayed+=1;
     } catch (error) {

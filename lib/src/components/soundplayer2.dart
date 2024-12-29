@@ -6,31 +6,34 @@ import 'dart:async';
 import '../components/file_handling.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_soloud/flutter_soloud.dart';
-import 'package:flutter/services.dart';
 import '../components/music_model.dart';
-import '../components/soundplayer.dart';
 
-class SoundPlayer2 {
+class Sound {
+  String instrument; 
+  String soundFileIdentity; 
+  late String soundFilePath; 
+  double volume;
+  int millisecondsDuration;
+
+  Sound(this.instrument,this.soundFileIdentity,this.volume,this.millisecondsDuration) {
+    soundFilePath='$instrument/$soundFileIdentity';
+  }
+}
+
+class SoundPlayer {
   late SystemInfo system;
-  AudioSource? currentSound;
-  //List<AudioPlayer> player = [];
-  List<bool> isPlaying = [false,false,false,false,false,false,false,false,false,false,false,false];
   Map<int,List<Sound>> chords = {};
-  final Map<String, Uint8List> _soundCache = {};
+  final Map<String, AudioSource> _soundCache = {};
+  int nbrSoundsPlayed=0;
 
-  SoundPlayer2(SystemInfo systemInfo) {
+  SoundPlayer(SystemInfo systemInfo) {
     system = systemInfo;
     initAudioPlayer();
-    preloadSounds();
-    playTestTunes();
   }
 
   Future<void> initAudioPlayer() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await SoLoud.instance.init();
-  }
-  void dispose() {
-    SoLoud.instance.deinit();
+    await SoLoud.instance.init();
+    if (SoLoud.instance.isInitialized) await preloadSounds();
   }
 
   Future<void> preloadSounds() async {
@@ -78,82 +81,35 @@ class SoundPlayer2 {
     await preloadSound("piano/A4sharp");
 }
 
-//--------------Test fuctionality------------------
-
-  void playTestMeasures(int index) {   // rekursiv og Timer
-    if (index>0) {
-      _playTestMeasure(index);
-      Timer(Duration(milliseconds: 1000),(){playTestMeasures(index-1);});
-    }
-  }
-
-  Future<void> _playTestMeasure(int index) async {
-    resetSounds();
-    addSound("piano",0.5, Note(0,500,'C','4'));
-    addSound("piano",0.5, Note(0,500,'E','4'));
-    addSound("piano",0.5, Note(0,500,'G','4'));
-    addSound("piano",0.5, Note(500,500,'D','4'));
-    addSound("piano",0.5, Note(500,500,'F','4'));
-    addSound("piano",0.5, Note(500,500,'A','4'));
-    playChords();
-  }
-
-  Future<void> playTestTunes() async {
-    try {
-        await SoLoud.instance.disposeAllSources();
-        currentSound = await SoLoud.instance.loadAsset('assets/sound/A4.wav');
-        await SoLoud.instance.play(currentSound!);
-    } catch (error) {
-      debugPrint('playTestTunes - SoLoud - $error');
-    }
-  }
-
-//------Functional code---------------
-
-  int _findFreePlayer () { 
-    int index = 0;
-    try {
-      while (isPlaying[index]) {index+=1;}
-    } catch (e) {
-      isPlaying.add(true);
-      player.add(AudioPlayer());
-      if (system.platform!="android") {player[index].setPlayerMode(PlayerMode.lowLatency);}
-      debugPrint('add (AudioPlayer $index');
-    }
-    return(index);
-  }
-
 Future<void> preloadSound(String path) async {
   try {
     if (!_soundCache.containsKey(path)) {
-      ByteData soundData = await rootBundle.load("assets/sound/$path.wav");
-      _soundCache[path] = soundData.buffer.asUint8List();
+      final sound = await SoLoud.instance.loadAsset('assets/sound/$path.wav');
+      _soundCache[path] = sound; 
     }
   } catch (e) {
     debugPrint("preloadSound : $e");
    }
 }
-Uint8List _getSound(String path) {return _soundCache[path]!;}
+AudioSource _getSound(String path) {return _soundCache[path]!;}
 
-Future<Uint8List> _loadSound(String path) async {
+Future<AudioSource> _loadSound(String path) async {
   try {
     await preloadSound(path);
     return _getSound(path);
   } catch (e) {
     debugPrint("_loadSound : $e");
-    return ByteData(0).buffer.asUint8List();
+    return _getSound('C2');
   }
 }
 
   Future<void> playSingleSound(String instrument, String note, double volume, int millisecondsDuration) async {
     try {
-      Uint8List soundBytes = await _loadSound("$instrument/$note");
-      int freePlayer =_findFreePlayer();
-      isPlaying[freePlayer]=true;
-      await player[freePlayer].play(BytesSource(soundBytes,mimeType: "audio/wav"), volume:volume);
-      Timer(Duration(milliseconds: millisecondsDuration), (){player[freePlayer].stop(); isPlaying[freePlayer]=false;});
+      AudioSource sound = await _loadSound("$instrument/$note");
+      await SoLoud.instance.disposeAllSources();
+      await SoLoud.instance.play(sound);
     } catch (error) {
-      debugPrint('playSound - AudioPlayer - Feil under avspilling av $note: $error');
+      debugPrint('playSound - AudioPlayer2 - Feil under avspilling av $note: $error');
     }
   }
 
@@ -178,33 +134,23 @@ Future<Uint8List> _loadSound(String path) async {
         }
       }
     } catch (error) {
-      debugPrint('playChords - AudioPlayer - $error');
+      debugPrint('playChords - AudioPlayer2 - $error');
     }
   }
   void initChord(List<Sound> chord) { //Future<void> initChord(List<Sound> chord) async {
-      for (Sound sound in chord) {
-        sound.indexPlayer =_findFreePlayer();
-        isPlaying[sound.indexPlayer]=true;
-        //preloadSound(sound.soundFilePath); // xxx prøver uten denne 
-      }
+      for (Sound sound in chord) {preloadSound(sound.soundFilePath);}
   }
   void playChord(List<Sound> chord) { 
-    for (Sound sound in chord) {
-      sound.indexPlayer =_findFreePlayer();
-      isPlaying[sound.indexPlayer]=true;
-      playSound(sound);
-    }
+    for (Sound sound in chord) {playSound(sound);}
   }
-  void playSound(Sound sound) { // Future<void> async
+  Future<void> playSound(Sound sound) async {  
     try {
-      player[sound.indexPlayer].play(BytesSource(_getSound(sound.soundFilePath),mimeType: "audio/wav"), volume:sound.volume);
-      Timer(Duration(milliseconds: sound.millisecondsDuration), (){player[sound.indexPlayer].stop(); stoppedPlayer(sound.indexPlayer);});
+      final handle = await SoLoud.instance.play(_getSound(sound.soundFilePath));
+      Timer(Duration(milliseconds: sound.millisecondsDuration), (){SoLoud.instance.stop(handle);});
+      nbrSoundsPlayed+=1;
     } catch (error) {
-      debugPrint('playSound - AudioPlayer ${sound.indexPlayer} - ${sound.soundFilePath} - $error');
+      debugPrint('playSound - AudioPlayer2 - ${sound.soundFilePath} - $error');
     }
   }
-  void stoppedPlayer(int index) { 
-    Timer(Duration(milliseconds: 100), (){isPlaying[index]=false;});
-  }
-
 }
+
