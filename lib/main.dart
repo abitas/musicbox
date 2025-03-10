@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
-//import 'src/components/soundplayer.dart';
-import 'src/components/soundplayer2.dart';
+import 'src/components/soundplayer_soloud_audioplayer_pcm.dart';
+//import 'src/components/soundplayer_audioplayer_pcm.dart';
+//import 'src/components/soundplayer_audioplayer.dart';
+//import 'src/components/soundplayer_soloud.dart';
 import 'src/components/file_handling.dart';
 import 'src/components/music_model.dart';
+//import 'src/components/sound.dart';  // not used when using soundplayer_audioplayer.dart
 import 'package:flutter/services.dart';
 import 'dart:convert';
 import 'dart:async';
 import 'package:vm_service/vm_service_io.dart';
-//import 'package:flutter_soloud/flutter_soloud.dart';
-//import 'dart:developer' as developer;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -61,7 +62,6 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final SoundPlayer soundPlayer = SoundPlayer(systemInfo);
-  //final SoundPlayer2 soundPlayer2 = SoundPlayer2(systemInfo);
   int _counter = 0;
   int _counter2 = 0;
   double _memoryConsumption = 0;
@@ -79,7 +79,8 @@ class _MyHomePageState extends State<MyHomePage> {
     super.dispose();
   }
 
-  void _startPlaying() {
+  Future<void> _startPlaying() async {
+    await _buildNextMeasure(0, measures.length - 1); //
     playMeasureIntervals(0, measures.length - 1);
   }
 
@@ -186,12 +187,23 @@ class _MyHomePageState extends State<MyHomePage> {
     if (index<=indexTo) {
       _playMeasure(index);
       Timer(Duration(milliseconds: measureMillisec),(){playMeasureIntervals(index+1, indexTo);});
+      _buildNextMeasure(index+1,indexTo);
+    }
+  }
+
+  Future<void> _buildNextMeasure(int index, int indexTo) async {
+    if (index<=indexTo) {
+      nextMeasureChords= MeasureChords();
+      measures[index].forEachNote((Note note) {nextMeasureChords.addSound("piano",0.5, note);});
+      nextMeasureChords.initChords();
     }
   }
 
   Future<void> _playMeasure(int index) async {
-    soundPlayer.resetSounds();
-    measures[index].forEachNote((Note note) {soundPlayer.addSound("piano",0.5, note);});
+    //soundPlayer.resetSounds();  // used when using soundplayer_audioplayer.dart
+    //measures[index].forEachNote((Note note) {soundPlayer.addSound("piano",0.5, note);});  // used when using soundplayer_audioplayer.dart
+    try {previousMeasureChords=currentMeasureChords;} catch (e) {previousMeasureChords=null;}
+    currentMeasureChords=nextMeasureChords;
     soundPlayer.playChords();
     setState(() {
       _counter= index;
