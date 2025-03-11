@@ -33,7 +33,7 @@ class MeasureChords {
         for (var chordList in chordGroup.chords.values) {
           for (Chord chord in chordList) {
             if (chord.millisecondsDuration>durationLimitPcmCalculation) {
-              //chord.pcmData = generatetestPcmData([440.0], 44100, 1000); //, 550.0, 660.0
+              //chord.pcmData = pcm.addWavHeader(generatetestPcmData([440.0, 550.0, 660.0], 44100, 1000)); 
               chord.pcmData = await pcm.createChord(chord.sounds);
               debugPrint('created Chord ${chord.millisecondsDuration} ${DateTime.now().millisecondsSinceEpoch}');
             }
@@ -101,13 +101,10 @@ class SoundPlayer {
         for (var chordGroup in chordGroupList) {
           for (var chordList in chordGroup.chords.values) {
             for (var chord in chordList) {
-            if (chordGroup.millisecondsDelay<100) {
-              choosePlayer(chord);
-            } else {
-              Timer(Duration(milliseconds: chordGroup.millisecondsDelay),()=>choosePlayer(chord));
-            }
-              for (var sound in chord.sounds) {
-                sound.indexPlayer = 1;
+              if (chordGroup.millisecondsDelay<100) {
+                choosePlayer(chord);
+              } else {
+                Timer(Duration(milliseconds: chordGroup.millisecondsDelay),()=>choosePlayer(chord));
               }
             }
           }
@@ -143,7 +140,7 @@ class SoundPlayer {
       Timer(Duration(milliseconds: sound.note.millisecondsDuration), (){soloud.stop(handle);});
       nbrSoundsPlayed+=1;
     } catch (error) {
-      debugPrint('playSound - AudioPlayer2 - ${sound.soundFilePath} - $error');
+      debugPrint('playSoloudSoundFile - ${sound.soundFilePath} - $error');
     }
   }
 //------------------------playing soloud HalfSpeed sound files -----------------------------  
@@ -152,7 +149,7 @@ class SoundPlayer {
     for (Sound sound in chord.sounds) {playSoloudHalfSpeedSoundFile(sound);}
   }
   Future<void> playSoloudHalfSpeedSoundFile(Sound sound) async {  
-    if (sound.note.pitch!.octave=='6') return await playSoloudSoundFile(sound);
+    if (sound.note.pitch!.octave=='7') return await playSoloudSoundFile(sound);
     try {
     final AudioSource source= getSound(sound.halfSpeedSoundFilePath);
       final handle = await soloud.play(source,volume: sound.soundVolume);
@@ -160,23 +157,28 @@ class SoundPlayer {
       Timer(Duration(milliseconds: sound.note.millisecondsDuration), (){soloud.stop(handle);});
       nbrSoundsPlayed+=1;
     } catch (error) {
-      debugPrint('playSound - AudioPlayer2 - ${sound.soundFilePath} - $error');
+      debugPrint('playSoloudHalfSpeedSoundFile - ${sound.soundFilePath} - $error');
     }
   }
+
+//------------------------playing Audioplayer sound files -----------------------------  
+
+// need another kind of preload. Please use soundplayer_audioplayer.dart for testing of this.
 
 //------------------------playing Audioplayer PCM chords-----------------------------  
   
   Future<void> playAudioplayerPcmChord(Chord chord) async {
     int indexPlayer=_findFreePlayer();
     isPlaying[indexPlayer]=true;
+    if (chord.pcmData.isEmpty) debugPrint('Empty PCM Data ');
     final BytesSource source= BytesSource(chord.pcmData,mimeType: "audio/wav");
     debugPrint('playAudioplayerPcmChord start $indexPlayer ${DateTime.now().millisecondsSinceEpoch}');
     player[indexPlayer].play(source);
     Timer(Duration(milliseconds: chord.millisecondsDuration), (){player[indexPlayer].stop(); stoppedPlayer(indexPlayer);});
   }
 
-//------------------------playing Soloud PCM chords-----------------------------  
-  
+//------------------------playing Soloud PCM chords -----------------------------  
+// (do not function as intended, even when removing wav-header, more information needed)  
   Future<void> playSoloudPcmChord(Chord chord) async {
     final AudioSource source= soloud.setBufferStream();
     soloud.addAudioDataStream(source, chord.pcmData);

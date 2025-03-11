@@ -26,97 +26,21 @@ Uint8List generateSineWave(int sampleRate, int millisecondsDuration, double freq
 Uint8List generatetestPcmData(List<double> frequencies, int sampleRate, int millisecondsDuration, {int numChannels = 2}) {
   int numSamples = (sampleRate * millisecondsDuration ~/ 1000);
   final ByteData byteData = ByteData(numSamples * numChannels * 2); // 16-bit = 2 bytes per sample per channel
-
   for (int i = 0; i < numSamples; i++) {
     double sampleValue = 0.0;
-
     // Legger sammen flere frekvenser for å lage en akkord
     for (double freq in frequencies) {
       sampleValue += sin(2 * pi * freq * i / sampleRate);
     }
-
     // Normaliser volumet slik at det ikke overstyrer
     sampleValue /= frequencies.length;
     sampleValue *= 32767; // 16-bit PCM (-32768 til 32767)
     int intSample = sampleValue.toInt().clamp(-32768, 32767);
-
     // Interleaved format: L, R, L, R, ...
     for (int ch = 0; ch < numChannels; ch++) {
       byteData.setInt16((i * numChannels + ch) * 2, intSample, Endian.little);
     }
   }
-
-  return byteData.buffer.asUint8List();
-}
-
-Uint8List generatetestPcmData1(List<double> frequencies, int sampleRate, int millisecondsDuration, {int numChannels = 2}) {
-  int numSamples = (sampleRate * millisecondsDuration ~/ 1000);
-  final ByteData byteData = ByteData(numSamples * numChannels * 4); // 32-bit float = 4 bytes per sample per channel
-
-  for (int i = 0; i < numSamples; i++) {
-    double sampleValue = 0;
-
-    for (double freq in frequencies) {
-      sampleValue += sin(2 * pi * freq * i / sampleRate);
-    }
-
-    sampleValue /= frequencies.length; // Normaliser
-    sampleValue = sampleValue.clamp(-1.0, 1.0); // Float32 i [-1.0, 1.0]
-
-    for (int ch = 0; ch < numChannels; ch++) {
-      byteData.setInt32((i * numChannels + ch) * 4, sampleValue.toInt(), Endian.little);
-    }
-  }
-
-  return byteData.buffer.asUint8List();
-}
-
-  Uint8List generatetestPcmData3(List<double> frequencies,int sampleRate,int millisecondsDuration) {
-    int numSamples = (sampleRate * millisecondsDuration ~/ 1000);
-    final ByteData byteData = ByteData(numSamples * 2); // 16-bit = 2 bytes per sample
-    for (int i = 0; i < numSamples; i++) {
-      double sampleValue = 0.0;
-      // Legg sammen flere frekvenser for å lage en akkord
-      for (double freq in frequencies) {
-        sampleValue += sin(2 * pi * freq * i / sampleRate);
-      }
-      // Normaliser volumet slik at det ikke overstyres
-      sampleValue /= frequencies.length;
-      sampleValue *= 32767; // 16-bit PCM verdiområde (-32768 til 32767)
-      // Skriv sample til PCM-bufferen
-      byteData.setInt32(i * 2, sampleValue.toInt(), Endian.little);
-    }
-    return byteData.buffer.asUint8List();
-  }
-
-Uint8List generatetestPcmData2(List<double> frequencies, int sampleRate, int millisecondsDuration) {
-  int numSamples = (sampleRate * millisecondsDuration ~/ 1000);
-  final ByteData byteData = ByteData(numSamples * 2); // 16-bit = 2 bytes per sample
-  double fadeLength = numSamples * 0.01; // 1% fade-in/fade-out
-
-  for (int i = 0; i < numSamples; i++) {
-    double sampleValue = 0.0;
-
-    // Generer lyd basert på frekvensene
-    for (double freq in frequencies) {
-      sampleValue += sin(2 * pi * freq * i / sampleRate);
-    }
-
-    // Normalisering (unngå for høy amplitude)
-    sampleValue /= sqrt(frequencies.length); // Bedre vekting
-
-    // Påfør fade-in og fade-out for å unngå klikk
-    if (i < fadeLength) {
-      sampleValue *= (i / fadeLength);
-    } else if (i > numSamples - fadeLength) {
-      sampleValue *= ((numSamples - i) / fadeLength);
-    }
-
-    // Konverter til 16-bit PCM (-32768 til 32767)
-    int intSample = (sampleValue * 32767).clamp(-32768, 32767).toInt();
-    byteData.setInt16(i * 2, intSample, Endian.little);
-  }
-
   return byteData.buffer.asUint8List();
 }
 
@@ -156,7 +80,7 @@ class Sound {
   Note note;
   String instrument; 
   double soundVolume;
-  int indexPlayer=0;
+  //int indexPlayer=0;
 
   String get soundFilePath =>'$instrument/${note.soundFileIdentity}';
 
